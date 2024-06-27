@@ -1,0 +1,16 @@
+create table if not exists qunit_set_data(
+uni_set_indicator Integer not null,
+config varchar(255) null,
+app_mode varchar(255) null,
+prog_options varchar(255) null,
+program_action varchar(255) null,
+program_desc char null,
+options char null,
+proto_env char null,
+commanders varchar(255) null,
+requires varchar(255) null,
+process_id Integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint qunit_set_data_pk primary key(uni_set_indicator));

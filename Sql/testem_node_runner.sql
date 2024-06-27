@@ -1,0 +1,16 @@
+create table if not exists testem_node_runner(
+id Integer not null,
+helper_name varchar(255) null,
+qunit_framework varchar(255) null,
+mocha varchar(255) null,
+mocha_type Integer null,
+mocha_cli_version char null,
+node_runner char null,
+browser_name varchar(255) null,
+dev_mode varchar(255) null,
+pipeline_mode varchar(255) null,
+launchers varchar(255) null,
+src_files varchar(255) null,
+src_files_tolgnore varchar(255) null,
+entity_state varchar(255) null,
+constraint testem_node_runner_pk primary key(id));
